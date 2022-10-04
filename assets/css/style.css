@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
 
+header  {
+    background: url(../images/pexels-ioana-motoc-4346325.jpg) center 60% / cover no-repeat;
+    height: 300px;
+    width: 100%;
+}
+
 h1 {
     display: block;
     text-align: center;
     font-family: 'Lora', serif;
     color: #072818;
-    background-color: #f0eee4;
 }

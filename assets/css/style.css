@@ -6,9 +6,13 @@ header  {
     width: 100%;
 }
 
+body    {
+    background-color: #072818;
+}
+
 h1 {
     display: block;
     text-align: center;
     font-family: 'Lora', serif;
-    color: #072818;
+    color: #f0eada;
 }

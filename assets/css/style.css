@@ -1,13 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
 
-header  {
+#header-image  {
     background: url(../images/pexels-ioana-motoc-4346325.jpg) center 60% / cover no-repeat;
     height: 300px;
     width: 100%;
+    margin-top: 50px;
 }
 
 body    {
     background-color: #072818;
+}
+
+li   {
+    font-size: large;
+    letter-spacing: 5px;
+    list-style-type: none;
+    float: right;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    line-height: 25px;
 }
 
 h1 {
@@ -16,3 +27,4 @@ h1 {
     font-family: 'Lora', serif;
     color: #f0eada;
 }
+

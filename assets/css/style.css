@@ -11,15 +11,7 @@ body    {
     background-color: #072818;
 }
 
-li   {
-    font-size: large;
-    letter-spacing: 5px;
-    list-style-type: none;
-    float: right;
-    margin-left: 30px;
-    margin-bottom: 20px;
-    line-height: 25px;
-}
+
 
 h1 {
     display: block;
@@ -28,3 +20,19 @@ h1 {
     color: #f0eada;
 }
 
+#navigation-menu a  {
+    text-decoration: none;
+    color: #f0eada;
+}
+
+li   {
+    text-align: center;
+    font-family: 'Lora', serif;
+    
+    font-size: 15px;
+    letter-spacing: 1px; 
+    list-style-type: none;
+    float: right;
+    margin-left: 10px;
+    line-height: 2px;
+}

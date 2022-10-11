@@ -40,6 +40,18 @@ li   {
     line-height: 2px;
 }
 
-#about  {
-    margin: 50px;
+hr  {
+    border: 1px solid #864c24;
+}
+
+footer  {
+    background-color: #864c24;
+    color: #f0eada;
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
 }

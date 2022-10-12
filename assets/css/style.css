@@ -4,7 +4,7 @@
     background: url(../images/pexels-ioana-motoc-4346325.jpg) center 60% / cover no-repeat;
     height: 300px;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 8px;
 }
 
 h1, h2 {
@@ -42,6 +42,10 @@ li   {
 
 hr  {
     border: 1px solid #864c24;
+}
+
+#navigation-line    {
+    margin-top: 35px;
 }
 
 footer  {

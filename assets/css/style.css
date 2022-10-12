@@ -50,6 +50,7 @@ hr  {
 
 footer  {
     background-color: #864c24;
+    font-family: 'Lora', serif;
     color: #f0eada;
     padding: 1em;
     text-align: center;
@@ -72,4 +73,9 @@ footer  {
     height: 150px;
     width: 100%;
     margin-top: 8px;
+}
+
+#about-text {
+    color: #f2ebd8;
+    font-family: 'Lora', serif;
 }

@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
 
-#header-image  {
-    background: url(../images/pexels-ioana-motoc-4346325.jpg) center 60% / cover no-repeat;
-    height: 300px;
+#main-header-image  {
+    background: url(../images/pexels-ioana-motoc-4346325.jpg) center 82% / cover no-repeat;
+    height: 290px;
     width: 100%;
     margin-top: 8px;
 }
@@ -58,4 +58,18 @@ footer  {
     bottom: 0;
     right: 0;
     z-index: 3;
+}
+
+#menu-header-image  {
+    background: url(../images/pexels-koko-rahmadie-227908.jpg) center 42% / cover no-repeat;
+    height: 165px;
+    width: 100%;
+    margin-top: 8px;
+}
+
+#reserve-header-image  {
+    background: url(../images/pexels-cottonbro-8848783.jpg) center 63% / cover no-repeat;
+    height: 150px;
+    width: 100%;
+    margin-top: 8px;
 }

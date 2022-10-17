@@ -92,6 +92,7 @@ hr {
 }
 
 /* Drinks Menu */
+/* Teas */
 
 #teas   {
     background: url(../images/pexels-eva-bronzini-6087517.jpg) center 20% / cover no-repeat;
@@ -149,6 +150,18 @@ hr {
     padding-right: 3px;
     background-color: #f2ebd8;
 }
+
+/* Other Drinks */
+
+#chocolate, #cold, #coffee    {
+    color: #b69b7d;
+    width: 33%;
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    display: inline-table;
+}
+
 
 /* Footer */
 

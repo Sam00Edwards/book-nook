@@ -1,38 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
 
-#main-header-image  {
+#main-header-image {
     background: url(../images/pexels-ioana-motoc-4346325.jpg) center 82% / cover no-repeat;
     height: 290px;
     width: 100%;
     margin-top: 8px;
 }
 
-h1, h2 {
+h1,
+h2 {
     display: block;
     color: #f0eada;
     text-align: center;
     font-family: 'Lora', serif;
 }
 
-body    {
+body {
     background-color: #072818;
 }
 
-body a  {
+body a {
     text-decoration: none;
 }
 
-#navigation-menu a  {
+#navigation-menu a {
     text-decoration: none;
     color: #f0eada;
 }
 
 
-li   {
+li {
     text-align: center;
     font-family: 'Lora', serif;
     font-size: 15px;
-    letter-spacing: 1px; 
+    letter-spacing: 1px;
     list-style-type: none;
     float: right;
     margin-top: 0px;
@@ -40,15 +41,15 @@ li   {
     line-height: 2px;
 }
 
-hr  {
+hr {
     border: 1px solid #864c24;
 }
 
-#navigation-line    {
+#navigation-line {
     margin-top: 35px;
 }
 
-footer  {
+footer {
     background-color: #864c24;
     font-family: 'Lora', serif;
     color: #f0eada;
@@ -61,14 +62,14 @@ footer  {
     z-index: 3;
 }
 
-#menu-header-image  {
+#menu-header-image {
     background: url(../images/pexels-koko-rahmadie-227908.jpg) center 42% / cover no-repeat;
     height: 165px;
     width: 100%;
     margin-top: 8px;
 }
 
-#reserve-header-image  {
+#reserve-header-image {
     background: url(../images/pexels-cottonbro-8848783.jpg) center 63% / cover no-repeat;
     height: 150px;
     width: 100%;
@@ -80,12 +81,12 @@ footer  {
     font-family: 'Lora', serif;
 }
 
-#sm-icon   {
+#sm-icon {
     display: inline-flex;
     padding: 3px;
 }
 
 
-#sm-icon i   {
+#sm-icon i {
     color: #f0eada;
 }

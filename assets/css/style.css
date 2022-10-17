@@ -104,7 +104,7 @@ hr {
     text-align: center;
     font-family: 'Lora', serif;
     font-weight: bold;
-    display: inline-block;
+    display: inline-table;
 }
 
 #black  {
@@ -123,6 +123,14 @@ hr {
 
 #green  {
     margin: 0 auto;
+}
+
+#green-list  {
+    color: #f2ebd8;
+    list-style-type: none;
+    font-weight: lighter;
+    text-align: justify;
+    font-size: 90%;
 }
 
 #white  {

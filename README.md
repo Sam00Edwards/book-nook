@@ -4,7 +4,7 @@ Hamburger Menu source; https://alvarotrigo.com/blog/hamburger-menu-css/
 
 Footer source coders coffeehouse; https://learn.codeinstitute.net/sandbox/api/challenges/60338cca9c4983ac5d855130/files/index.html#contact
 
-
+Footer Icons HTML source; https://sam00edwards.github.io/love-running/index.html
 
 Welcome Sam00Edwards,
 

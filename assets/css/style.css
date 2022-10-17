@@ -100,14 +100,9 @@ footer {
     color: #f0eada;
 }
 
-/* #sm-icon p {
-    font-size: 130%;
-} */
-
 #sm-icon  {
     display: inline-block;
     float: left;
-    /* text-align: center; */
 }
 
 #sm-icon a  {
@@ -136,8 +131,17 @@ h3  {
     float: right;
     text-align: right;
     padding-right: 3px;
+    font-size: 59%;
 }
 
 #phone p    {
     color: #f2ebd8;
+}
+
+.text-center    {
+    text-align: right;
+    display: table-footer-group;
+}
+th, td  {
+    border-bottom: 1px solid #f2ebd8;
 }

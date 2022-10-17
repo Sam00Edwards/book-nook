@@ -104,13 +104,25 @@ h3  {
     color: #f0eada;
 }
 
-/* #address    {
-    
-} */
+#address    {
+    width: 150px;
+    margin: 0 auto;
+    height: 0px;
+    text-align: center;
+    font-size: 70%;
+} 
 
-#contact-us {
+#address p  {
+    color: #f2ebd8;
+}
+
+#phone {
     float: right;
     text-align: right;
     padding-right: 3px;
     font-size: 70%;
+}
+
+#phone p    {
+    color: #f2ebd8;
 }

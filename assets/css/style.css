@@ -45,6 +45,7 @@ h2 {
 
 body {
     background-color: #072818;
+    margin-bottom: 100px;
 }
 
 body a {
@@ -196,6 +197,61 @@ hr {
 }
 
 #coffee-drinks  {
+    float: right;
+    list-style-type: none;
+    font-weight: lighter;
+    color: #072818;
+    text-align: right;
+    font-size: 90%;
+    padding-right: 3px;
+    background-color: #f2ebd8;
+}
+
+/* Extras */
+
+#cake, #books, #seasonal    {
+    color: #b69b7d;
+    width: 33%;
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    display: inline-table;
+}
+
+
+#cake  {
+    background-color: #120f12;
+}
+
+#cake-menu {
+    float: left;
+    font-weight: lighter;
+    color: #f2ebd8;
+    text-align: left;
+    font-size: 84%;
+    padding-left: 3px;
+    background-color: #120f12;
+}
+
+#books  {
+    margin: 0 auto;
+}
+
+#book-menu  {
+    color: #f2ebd8;
+    list-style-type: none;
+    font-weight: lighter;
+    text-align: justify;
+    font-size: 90%;
+}
+
+#seasonal {
+    float: right;
+    background-color: #f2ebd8;
+    height: 200px;
+}
+
+#seasonal-menu  {
     float: right;
     list-style-type: none;
     font-weight: lighter;

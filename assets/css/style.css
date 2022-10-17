@@ -111,7 +111,7 @@ footer {
 
 #sm-icon {
     display: inline-block;
-    /* float: left; */
+    float: left;
 }
 
 #sm-icon a {

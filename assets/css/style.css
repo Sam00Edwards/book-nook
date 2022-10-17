@@ -13,6 +13,10 @@
     margin-top: 8px;
 }
 
+#title  {
+    margin: 20px;
+}
+
 h1,
 h2 {
     display: block;
@@ -32,6 +36,7 @@ body a {
 #navigation-menu a {
     text-decoration: none;
     color: #f0eada;
+    margin: 5px;
 }
 
 
@@ -106,7 +111,7 @@ footer {
 
 #sm-icon {
     display: inline-block;
-    float: left;
+    /* float: left; */
 }
 
 #sm-icon a {

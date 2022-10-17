@@ -51,9 +51,23 @@ body a {
     text-decoration: none;
 }
 
+#navigation-menu    {
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    list-style-type: none;
+    float: right;
+    margin-top: 0px;
+    margin-left: 3px;
+    line-height: 2px;
+    display: inline-flex;
+    flex-direction: row-reverse;
+}
+
 #navigation-menu a {
     text-decoration: none;
-    color: #f0eada;
+    color: #b69b7d;
     margin: 5px;
 }
 
@@ -66,7 +80,7 @@ hr {
 }
 
 
-/* About */
+/* About Us*/
 
 #about-text {
     color: #f2ebd8;
@@ -75,6 +89,43 @@ hr {
 
 #about {
     margin-bottom: 100px;
+}
+
+/* Drinks Menu */
+
+#teas   {
+    background: url(../images/pexels-eva-bronzini-6087517.jpg) center 20% / cover no-repeat;
+    background-size: 100%;
+}
+
+#black, #green, #white    {
+    color: #b69b7d;
+    width: 33%;
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    display: inline-block;
+}
+
+#black-list {
+    float: left;
+    font-weight: lighter;
+    color: #f2ebd8;
+    text-align: left;
+    font-size: 84%;
+    padding-left: 3px;
+}
+
+#green  {
+    margin: 0 auto;
+}
+
+#white  {
+    float: right;
+}
+
+#white-list  {
+    float: right;
 }
 
 /* Footer */
@@ -96,7 +147,7 @@ footer {
     height: 75px;
 }
 
-li {
+/* li {
     text-align: center;
     font-family: 'Lora', serif;
     font-size: 15px;
@@ -106,11 +157,12 @@ li {
     margin-top: 0px;
     margin-left: 3px;
     line-height: 2px;
-}
+} */
 
 #sm-icon li {
     padding-top: 4px;
     float: left;
+    list-style-type: none;
 }
 
 #sm-icon i {

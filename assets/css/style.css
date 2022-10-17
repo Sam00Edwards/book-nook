@@ -6,12 +6,30 @@
     border: none;
 }
 
+/* Header Images */
+
 #main-header-image {
     background: url(../images/pexels-ioana-motoc-4346325.jpg) center 82% / cover no-repeat;
     height: 290px;
     width: 100%;
     margin-top: 8px;
 }
+
+#menu-header-image {
+    background: url(../images/pexels-koko-rahmadie-227908.jpg) center 42% / cover no-repeat;
+    height: 165px;
+    width: 100%;
+    margin-top: 8px;
+}
+
+#reserve-header-image {
+    background: url(../images/pexels-cottonbro-8848783.jpg) center 63% / cover no-repeat;
+    height: 150px;
+    width: 100%;
+    margin-top: 8px;
+}
+
+/* Title and Navigation */
 
 #title  {
     margin: 20px;
@@ -39,19 +57,6 @@ body a {
     margin: 5px;
 }
 
-
-li {
-    text-align: center;
-    font-family: 'Lora', serif;
-    font-size: 15px;
-    letter-spacing: 1px;
-    list-style-type: none;
-    float: right;
-    margin-top: 0px;
-    margin-left: 3px;
-    line-height: 2px;
-}
-
 hr {
     border: 1px solid #864c24;
 }
@@ -60,9 +65,19 @@ hr {
     margin-top: 35px;
 }
 
+
+/* About */
+
+#about-text {
+    color: #f2ebd8;
+    font-family: 'Lora', serif;
+}
+
 #about {
     margin-bottom: 100px;
 }
+
+/* Footer */
 
 footer {
     background-color: #864c24;
@@ -81,23 +96,16 @@ footer {
     height: 75px;
 }
 
-#menu-header-image {
-    background: url(../images/pexels-koko-rahmadie-227908.jpg) center 42% / cover no-repeat;
-    height: 165px;
-    width: 100%;
-    margin-top: 8px;
-}
-
-#reserve-header-image {
-    background: url(../images/pexels-cottonbro-8848783.jpg) center 63% / cover no-repeat;
-    height: 150px;
-    width: 100%;
-    margin-top: 8px;
-}
-
-#about-text {
-    color: #f2ebd8;
+li {
+    text-align: center;
     font-family: 'Lora', serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    list-style-type: none;
+    float: right;
+    margin-top: 0px;
+    margin-left: 3px;
+    line-height: 2px;
 }
 
 #sm-icon li {

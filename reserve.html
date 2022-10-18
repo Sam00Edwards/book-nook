@@ -34,16 +34,16 @@
     <hr id="navigation-line">
     <section id="reserve-header-image"></section>
     <hr>
-    <form action="https://formdump.codeinstitute.net" method="POST">
-        <div>
+    <div>
+        <form action="https://formdump.codeinstitute.net" method="POST">
         <fieldset>
             <legend>Reserve A Table</legend>
             <form action="/action_page.php">
-                <label for="date-time">Date and Time:</label>
-                <input type="datetime-local" id="date-time" name="date-time">
+                <label for="date-and-time">Date and Time:</label>
+                <input type="datetime-local" id="date-and-time" name="date-and-time" value="" min="2022-10-18T09:00" max="2022-11-30T20:00">
                 <br>
-            <label for="number" class="block-label">Number of Guests</label>
-            <select id="number" name="number" required="">
+            <label for="guest-number" class="block-label">Number of Guests</label>
+            <select id="guest-number" name="guest-number" required="">
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -59,14 +59,37 @@
                 <option value="12+">12+</option>
             </select>
             <br>
-            <label for="flname">Name:</label>
-                <input type="text" id="flname" name="flname" value=""><br>
-            <label for="phoneno">Phone No:</label>
-                <input type="tel" id="phoneno" name="phoneno"><br>
+            <label for="full-name">Name:</label>
+                <input type="text" id="full-name" name="full-name" value=""><br>
+            <label for="phone-no">Phone No:</label>
+                <input type="tel" id="phone-no" name="phone-no"><br>
             <label for="email">Email:</label>
                 <input type="email" id="email" name="email"><br>
             <input type="submit" class="block-label" value="Submit">    
             </form>
+            </fieldset>
+            <fieldset>
+                <form action="https://formdump.codeinstitute.net" method="POST">
+            <legend>Vintage Books Appointment</legend>
+            <form action="/action_page.php">
+                <label for="date-and-time">Date and Time:</label>
+                <input type="datetime-local" id="date-and-time" name="date-and-time" value="" min="2022-10-18T09:00" max="2022-11-30T20:00">
+                <br>
+            <label for="full-name">Name:</label>
+                <input type="text" id="full-name" name="full-name" value="">
+                <br>
+            <label for="phone-no">Phone No:</label>
+                <input type="tel" id="phone-no" name="phone-no">
+                <br>
+            <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <br>
+            <label for="book-list">Books to View</label>
+            <textarea id="book-list" name="book-list"></textarea>
+            <br>
+            <input type="submit" class="block-label" value="Submit"></form>  
+            </form>
+            </fieldset>
     </div>
     <footer>
         <nav>

@@ -375,3 +375,47 @@ th,
 td {
     border-bottom: 1px solid #f2ebd8;
 }
+
+/* Reserve Page Forms */
+
+legend {
+    display: block;
+    color: #b69b7d;
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+}
+
+.form   {
+    display: block;
+    text-align: center;
+    font-family: 'Lora', serif;
+    color: #f2ebd8;
+    margin: 3% 30%;
+}
+
+input, textarea   {
+    width: 50%;
+    float: right;
+}
+
+label   {
+    float: left;
+}
+
+.submit {
+    background-color: #864c24;
+    color: #f0eada;
+    float: left;
+}
+
+.book-submit {
+    background-color: #864c24;
+    color: #f0eada;
+    float: left;
+    margin-top: 10px;
+}
+
+#guest-number    {
+    float: right;
+}

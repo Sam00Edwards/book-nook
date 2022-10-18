@@ -31,11 +31,13 @@
 
 /* Title and Navigation */
 
-#title  {
+#title {
     margin: 20px;
 }
 
-h1, h2, legend {
+h1,
+h2,
+legend {
     display: block;
     color: #f0eada;
     text-align: center;
@@ -51,7 +53,7 @@ body a {
     text-decoration: none;
 }
 
-#navigation-menu    {
+#navigation-menu {
     text-align: center;
     font-family: 'Lora', serif;
     font-size: 15px;
@@ -95,12 +97,14 @@ hr {
 /* Drinks Menu */
 /* Teas */
 
-#teas   {
+#teas {
     background: url(../images/pexels-eva-bronzini-6087517.jpg) center 20% / cover no-repeat;
     background-size: 100%;
 }
 
-#black, #green, #white    {
+#black,
+#green,
+#white {
     color: #b69b7d;
     width: 33%;
     text-align: center;
@@ -110,7 +114,7 @@ hr {
     height: 200px;
 }
 
-#black  {
+#black {
     background-color: #120f12;
 }
 
@@ -124,11 +128,11 @@ hr {
     background-color: #120f12;
 }
 
-#green  {
+#green {
     margin: 0 auto;
 }
 
-#green-list  {
+#green-list {
     color: #f2ebd8;
     list-style-type: none;
     font-weight: lighter;
@@ -136,13 +140,13 @@ hr {
     font-size: 90%;
 }
 
-#white  {
+#white {
     float: right;
     background-color: #f2ebd8;
     color: #120f12
 }
 
-#white-list  {
+#white-list {
     float: right;
     list-style-type: none;
     font-weight: lighter;
@@ -155,17 +159,19 @@ hr {
 
 /* Other Drinks */
 
-#other-drinks   {
+#other-drinks {
     background-color: #70798C;
 }
 
-#other-drinks-background    {
+#other-drinks-background {
     background: url(../images/pexels-neosiam-579216.jpg) center 20% / cover no-repeat;
     background-size: 100%;
     color: #35465e;
 }
 
-#chocolate, #cold, #coffee    {
+#chocolate,
+#cold,
+#coffee {
     color: #b69b7d;
     width: 33%;
     text-align: center;
@@ -176,7 +182,7 @@ hr {
 }
 
 
-#chocolate  {
+#chocolate {
     background-color: #7B3F00;
 }
 
@@ -190,11 +196,11 @@ hr {
     color: #120f12;
 }
 
-#cold  {
+#cold {
     margin: 0 auto;
 }
 
-#cold-drinks  {
+#cold-drinks {
     color: #f2ebd8;
     list-style-type: none;
     font-weight: lighter;
@@ -208,7 +214,7 @@ hr {
     color: #40312f;
 }
 
-#coffee-drinks  {
+#coffee-drinks {
     float: right;
     list-style-type: none;
     font-weight: lighter;
@@ -221,7 +227,9 @@ hr {
 
 /* Extras */
 
-#cake, #books, #seasonal    {
+#cake,
+#books,
+#seasonal {
     color: #b69b7d;
     width: 33%;
     text-align: center;
@@ -231,17 +239,17 @@ hr {
     height: 200px;
 }
 
-#extras    {
+#extras {
     background: url(../images/pexels-pixabay-159510.jpg) center 60% / cover no-repeat;
     background-size: 100%;
     color: #072818;
 }
 
-#extras-background  {
+#extras-background {
     background-color: #cab698;
 }
 
-#cake  {
+#cake {
     background-color: #f2c1d1;
     color: #00b694;
 }
@@ -255,12 +263,12 @@ hr {
     background-color: #f2c1d1;
 }
 
-#books  {
+#books {
     margin: 0 auto;
     color: #40312f;
 }
 
-#book-menu  {
+#book-menu {
     color: #120f12;
     list-style-type: none;
     font-weight: lighter;
@@ -275,7 +283,7 @@ hr {
     color: #072818;
 }
 
-#seasonal-menu  {
+#seasonal-menu {
     float: right;
     list-style-type: none;
     font-weight: lighter;
@@ -286,7 +294,7 @@ hr {
     background-color: #BB2528;
 }
 
-#asterisk   {
+#asterisk {
     color: #f0eada;
 }
 
@@ -322,7 +330,7 @@ footer {
 
 #sm-icon i {
     color: #f0eada;
-    
+
 }
 
 #sm-icon a {

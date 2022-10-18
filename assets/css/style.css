@@ -35,8 +35,7 @@
     margin: 20px;
 }
 
-h1,
-h2 {
+h1, h2, legend {
     display: block;
     color: #f0eada;
     text-align: center;
@@ -310,6 +309,11 @@ footer {
     height: 75px;
 }
 
+#sm-icon {
+    display: inline-block;
+    float: left;
+}
+
 #sm-icon li {
     padding-top: 4px;
     float: left;
@@ -318,11 +322,7 @@ footer {
 
 #sm-icon i {
     color: #f0eada;
-}
-
-#sm-icon {
-    display: inline-block;
-    float: left;
+    
 }
 
 #sm-icon a {

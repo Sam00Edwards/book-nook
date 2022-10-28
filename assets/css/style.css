@@ -527,6 +527,7 @@ label   {
 
 /* For small screen sizes from  540px wide and down*/
 @media screen and (max-width: 540px) {
+    /* Navigation Bar */
      #navigation-menu {
         clear: left;
         margin-left: -176px;
@@ -541,5 +542,88 @@ label   {
         color: #b69b7d;
         margin: 5px;
     }
+
+/* Footer */
+
+footer {
+    background-color: #864c24;
+    font-family: 'Lora', serif;
+    color: #f0eada;
+    /* padding: 1em; */
+    /* text-align: center; */
+    width: 100%;
+    /* position: fixed; */
+    bottom: 0;
+    right: 0;
+    z-index: 3;
+    margin: 0;
+    padding: 0;
+    border: none;
+    height: 120px;
+}
+
+#sm-icon {
+    float: left;
+    font-size: 150%;
+}
+
+#sm-icon p {
+    margin: 0 auto;
+}
+
+#sm-icon li {
+    padding-top: 4px;
+    float: left;
+    list-style-type: none;
+}
+
+#sm-icon i {
+    color: #f0eada;
+
+}
+
+#sm-icon a {
+    color: #f0eada;
+    padding-left: 5px;
+    text-align: left;
+}
+
+h3 {
+    color: #f0eada;
+}
+
+#phone {
+    float: right;
+    text-align: right;
+    padding-right: 3px;
+    font-size: 100%;
+}
+
+#address {
+    width: 150px;
+    margin: 0 auto;
+    height: 0px;
+    text-align: center;
+    font-size: 80%;
+    display: none;
+}
+
+#address p {
+    color: #f2ebd8;
+}
+
+#phone p {
+    color: #f2ebd8;
+}
+
+.text-center {
+    text-align: right;
+    display: table-footer-group;
+}
+
+th,
+td {
+    border-bottom: 1px solid #f2ebd8;
+}
 
 }

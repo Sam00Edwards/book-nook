@@ -47,7 +47,6 @@ legend {
 
 body {
     background-color: #072818;
-    margin-bottom: 100px;
 }
 
 body a {
@@ -57,7 +56,7 @@ body a {
 #navigation-menu {
     text-align: center;
     font-family: 'Lora', serif;
-    font-size: 15px;
+    font-size: large;
     letter-spacing: 1px;
     list-style-type: none;
     float: right;
@@ -112,12 +111,15 @@ hr {
 #about-text {
     color: #f2ebd8;
     font-family: 'Lora', serif;
-    padding: 3px 7px;
+    padding: 7px;
+    max-width: 90%;
+    margin: 0 auto;
 }
 
-#about {
-    margin-bottom: 100px;
-}
+ /* #about {
+    max-width: 90%;
+    margin: 0 auto;
+}  */
 
 /* Drinks Menu */
 /* Teas */
@@ -330,9 +332,9 @@ footer {
     font-family: 'Lora', serif;
     color: #f0eada;
     /* padding: 1em; */
-    /* text-align: center;  */
+    /* text-align: center; */
     width: 100%;
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
     right: 0;
     z-index: 3;

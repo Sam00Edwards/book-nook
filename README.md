@@ -9,6 +9,7 @@ Footer Icons HTML source; https://sam00edwards.github.io/love-running/index.html
 black tea leaves https://www.pexels.com/photo/close-up-shot-of-dried-tea-leaves-6087517/
 ice cubes https://www.pexels.com/photo/clear-water-579216/
 rainfall sound https://pixabay.com/sound-effects/light-rain-ambient-114354/
+Hover code https://css-tricks.com/css-link-hover-effects/
 
 Welcome Sam00Edwards,
 

@@ -503,15 +503,21 @@ label   {
 @media screen and (max-width: 540px) {
      #navigation-menu {
         clear: left;
-        margin-left: -129px;
+        margin-left: -151px;
         left: 50%;
-        position: fixed;
-        
+        position: absolute;
+        font-size: large;
+        letter-spacing: 0;
     } 
     
     #navigation-menu a {
         text-decoration: none;
         color: #b69b7d;
+        margin: 5px;
+    }
+    #navigation-menu a:hover {
+        text-decoration: underline;
+        color: #864c24;
         margin: 5px;
     }
 }

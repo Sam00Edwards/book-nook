@@ -498,3 +498,20 @@ label   {
     float: left;
     margin: 5px 0 0 20px;
 }
+
+/* For small screen sizes from  540px wide and down*/
+@media screen and (max-width: 540px) {
+     #navigation-menu {
+        clear: left;
+        margin-left: -129px;
+        left: 50%;
+        position: fixed;
+        
+    } 
+    
+    #navigation-menu a {
+        text-decoration: none;
+        color: #b69b7d;
+        margin: 5px;
+    }
+}

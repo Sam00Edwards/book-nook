@@ -559,7 +559,7 @@ footer {
     margin: 0;
     padding: 0;
     border: none;
-    height: 120px;
+    height: 215px;
 }
 
 #sm-icon {
@@ -568,13 +568,15 @@ footer {
 }
 
 #sm-icon p {
-    margin: 0 auto;
+    padding-top: 25px;
+    font-size: 150%;
 }
 
 #sm-icon li {
-    padding-top: 4px;
+    padding-top: 5px;
     float: left;
     list-style-type: none;
+    font-size: xxx-large;
 }
 
 #sm-icon i {
@@ -584,8 +586,13 @@ footer {
 
 #sm-icon a {
     color: #f0eada;
-    padding-left: 5px;
+    padding-left: 13px;
     text-align: left;
+}
+
+.find   {
+    display: block;
+    padding-top: 35px;
 }
 
 h3 {
@@ -595,17 +602,21 @@ h3 {
 #phone {
     float: right;
     text-align: right;
-    padding-right: 3px;
+    padding-right: 13px;
     font-size: 100%;
+    margin-top: 34px;
+    margin-left: 30px;
 }
 
 #address {
-    width: 150px;
+    width: 179px;
     margin: 0 auto;
-    height: 0px;
-    text-align: center;
-    font-size: 80%;
-    display: none;
+    height: 61px;
+    text-align: right;
+    font-size: 100%;
+    /* display: none; */
+    float: right;
+    padding-right: 13px;
 }
 
 #address p {

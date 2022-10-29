@@ -448,7 +448,7 @@ label   {
   color: #f0eada;
   cursor: pointer;
   z-index: 1;
-  padding: 10px 20px;
+  padding: 10px 5px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -456,6 +456,7 @@ label   {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  margin-top: 13px;
 }
 
 .button-86::after,
@@ -515,14 +516,15 @@ label   {
     float: right;
 }
 
-#map    {
-    float: right;
-    margin: 5px 0 0 20px;
+#map  iframe  {
+    /* float: right; */
+    margin-top: 17px;
+    width: 100%;
+    margin-bottom: -4px;
 }
 
-#reserve-box    {
-    float: left;
-    margin: 5px 0 0 20px;
+#reserve-box  form  {
+    margin: 22px 20px;
 }
 
 /* For small screen sizes from  540px wide and down*/

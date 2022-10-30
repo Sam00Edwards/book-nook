@@ -133,12 +133,14 @@ hr {
 #green,
 #white {
     color: #b69b7d;
-    width: 33%;
+    max-width: 33%;
     text-align: center;
     font-family: 'Lora', serif;
     font-weight: bold;
     display: inline-table;
     height: 200px;
+    font-size: 2.5vw;
+    margin: auto;
 }
 
 #black {
@@ -154,6 +156,8 @@ hr {
     padding-left: 3px;
     background-color: #120f12;
 }
+
+
 
 #green {
     margin: 0 auto;
@@ -175,7 +179,7 @@ hr {
 
 #white-list {
     float: right;
-    list-style-type: none;
+    list-style-type: circle;
     font-weight: lighter;
     color: #072818;
     text-align: justify;
@@ -186,9 +190,9 @@ hr {
 
 /* Other Drinks */
 
-#other-drinks {
+/* #other-drinks {
     background-color: #70798C;
-}
+} */
 
 #other-drinks-background {
     background: url(../images/pexels-neosiam-579216.jpg) center 20% / cover no-repeat;
@@ -200,17 +204,19 @@ hr {
 #cold,
 #coffee {
     color: #b69b7d;
-    width: 33%;
+    max-width: 33%;
     text-align: center;
     font-family: 'Lora', serif;
     font-weight: bold;
-    display: inline-grid;
+    display: inline-table;
     height: 200px;
+    font-size: 2.5vw;
+    margin: auto;
 }
 
 
 #chocolate {
-    background-color: #7B3F00;
+    background-color: #120f12;
 }
 
 #chocolate-drinks {
@@ -219,8 +225,8 @@ hr {
     color: #f2ebd8;
     text-align: justify;
     padding-left: 3px;
-    background-color: #7B3F00;
-    color: #120f12;
+    background-color: #120f12;
+    /* color: #120f12; */
 }
 
 #cold {
@@ -232,13 +238,12 @@ hr {
     list-style-type: none;
     font-weight: lighter;
     text-align: justify;
-    color: #001428;
+    /* color: #001428; */
 }
 
 #coffee {
     float: right;
-    background-color: #b18f6a;
-    color: #40312f;
+    background-color: #f2ebd8;
 }
 
 #coffee-drinks {
@@ -248,7 +253,7 @@ hr {
     color: #120f12;
     text-align: justify;
     padding-right: 3px;
-    background-color: #b18f6a;
+    background-color: #f2ebd8;
     padding-bottom: 60px;
 }
 
@@ -258,12 +263,14 @@ hr {
 #books,
 #seasonal {
     color: #b69b7d;
-    width: 33%;
+    max-width: 33%;
     text-align: center;
     font-family: 'Lora', serif;
     font-weight: bold;
     display: inline-table;
     height: 200px;
+    font-size: 2.5vw;
+    margin: auto;
 }
 
 #extras {
@@ -277,8 +284,7 @@ hr {
 }
 
 #cake {
-    background-color: #f2c1d1;
-    color: #00b694;
+    background-color: #120f12;
 }
 
 #cake-menu {
@@ -305,20 +311,19 @@ hr {
 
 #seasonal {
     float: right;
-    background-color: #BB2528;
+    background-color: #f2ebd8;
     height: 200px;
-    color: #072818;
 }
 
 #seasonal-menu {
     float: right;
     list-style-type: none;
     font-weight: lighter;
-    color: #ECDEB9;
+    /* color: #ECDEB9; */
     text-align: justify;
     font-size: 90%;
     padding-right: 3px;
-    background-color: #BB2528;
+    background-color: #f2ebd8;
 }
 
 #asterisk {
@@ -527,8 +532,8 @@ label   {
     margin: 22px 20px;
 }
 
-/* For small screen sizes from  540px wide and down*/
-@media screen and (max-width: 540px) {
+/* For small screen sizes from  414px wide and down*/
+@media screen and (max-width: 414px) {
     /* Navigation Bar */
      #navigation-menu {
         clear: left;
@@ -606,8 +611,8 @@ h3 {
     text-align: right;
     padding-right: 13px;
     font-size: 100%;
-    margin-top: 34px;
-    margin-left: 30px;
+    margin-top: 25px;
+    margin-left: 20px;
 }
 
 #address {

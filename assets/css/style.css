@@ -631,14 +631,15 @@ label   {
     #cold,
     #coffee {
         color: #b69b7d;
-        max-width: 33%;
+        max-width: 100%;
         text-align: center;
         font-family: 'Lora', serif;
         font-weight: bold;
-        display: inline-table;
-        height: 200px;
+        display: block;
+        height: 100%;
         font-size: 2.5vw;
         margin: auto;
+        padding: 10px;
     }
     
     
@@ -651,9 +652,9 @@ label   {
         font-weight: lighter;
         color: #f2ebd8;
         text-align: justify;
-        padding-left: 3px;
+        font-size: 84%;
+        padding: 15px;
         background-color: #120f12;
-        /* color: #120f12; */
         list-style-type: decimal
     }
     
@@ -666,8 +667,9 @@ label   {
         list-style-type: none;
         font-weight: lighter;
         text-align: justify;
-        /* color: #001428; */
-        list-style-type: decimal
+        font-size: 90%;
+        list-style-type: decimal;
+        padding: 15px;
     }
     
     #coffee {
@@ -677,13 +679,13 @@ label   {
     
     #coffee-drinks {
         float: none;
-        list-style-type: none;
+        list-style-type: circle;
         font-weight: lighter;
-        color: #120f12;
+        color: #072818;
         text-align: justify;
-        padding-right: 3px;
+        font-size: 90%;
+        padding: 15px;
         background-color: #f2ebd8;
-        padding-bottom: 60px;
         list-style-type: decimal
     }
     
@@ -693,14 +695,15 @@ label   {
     #books,
     #seasonal {
         color: #b69b7d;
-        max-width: 33%;
+        max-width: 100%;
         text-align: center;
         font-family: 'Lora', serif;
         font-weight: bold;
-        display: inline-table;
-        height: 200px;
+        display: block;
+        height: 100%;
         font-size: 2.5vw;
         margin: auto;
+        padding: 10px;
     }
     
     #extras {
@@ -722,7 +725,8 @@ label   {
         font-weight: lighter;
         color: #f2ebd8;
         text-align: justify;
-        padding-left: 3px;
+        font-size: 84%;
+        padding: 15px;
         background-color: #120f12;
         list-style-type: decimal
     }
@@ -733,12 +737,13 @@ label   {
     }
     
     #book-menu {
-        color: #120f12;
+        color: #f2ebd8;
         list-style-type: none;
         font-weight: lighter;
         text-align: justify;
-        font-size: 80%;
-        list-style-type: decimal
+        font-size: 90%;
+        list-style-type: decimal;
+        padding: 15px;
     }
     
     #seasonal {
@@ -749,12 +754,12 @@ label   {
     
     #seasonal-menu {
         float: none;
-        list-style-type: none;
+        list-style-type: circle;
         font-weight: lighter;
-        /* color: #ECDEB9; */
+        color: #072818;
         text-align: justify;
         font-size: 90%;
-        padding-right: 3px;
+        padding: 15px;
         background-color: #f2ebd8;
         list-style-type: decimal
     }

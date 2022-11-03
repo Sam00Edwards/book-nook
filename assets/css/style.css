@@ -272,8 +272,8 @@ hr {
     font-family: 'Lora', serif;
     font-weight: bold;
     display: inline-table;
-    height: 200px;
-    font-size: 2.5vw;
+    height: 340px;
+    font-size: 2vw;
     margin: auto;
 }
 
@@ -289,10 +289,11 @@ hr {
 
 #cake {
     background-color: #120f12;
+    width: 300px;
 }
 
 #cake-menu {
-    float: left;
+    float: none;
     font-weight: lighter;
     color: #f2ebd8;
     text-align: justify;
@@ -306,27 +307,27 @@ hr {
 }
 
 #book-menu {
-    color: #120f12;
+    color: #f2ebd8;
     list-style-type: none;
     font-weight: lighter;
     text-align: justify;
-    font-size: 80%;
+    /* color: #001428;*/
 }
 
 #seasonal {
     float: right;
     background-color: #f2ebd8;
-    height: 200px;
+    color: #120f12;
 }
 
 #seasonal-menu {
     float: right;
     list-style-type: none;
     font-weight: lighter;
-    /* color: #ECDEB9; */
+    color: #072818;
     text-align: justify;
     font-size: 90%;
-    padding-right: 3px;
+    padding-right: 55px;
     background-color: #f2ebd8;
 }
 
@@ -723,6 +724,7 @@ label   {
     
     #cake {
         background-color: #120f12;
+        width: auto;
     }
     
     #cake-menu {

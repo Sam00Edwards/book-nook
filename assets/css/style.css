@@ -550,6 +550,219 @@ label   {
         margin: 5px;
     }
 
+
+    #black,
+    #green,
+    #white {
+        color: #b69b7d;
+        max-width: 100%;
+        text-align: center;
+        font-family: 'Lora', serif;
+        font-weight: bold;
+        display: block;
+        height: 100%;
+        font-size: 2.5vw;
+        margin: auto;
+        padding: 10px;
+    }
+    
+    #black {
+        background-color: #120f12;
+    }
+    
+    #black-list {
+        float: none;
+        font-weight: lighter;
+        color: #f2ebd8;
+        text-align: justify;
+        font-size: 84%;
+        padding: 15px;
+        background-color: #120f12;
+        list-style-type: decimal
+    }
+    
+    
+    
+    #green {
+        margin: 0 auto;
+    }
+    
+    #green-list {
+        color: #f2ebd8;
+        list-style-type: none;
+        font-weight: lighter;
+        text-align: justify;
+        font-size: 90%;
+        list-style-type: decimal;
+        padding: 15px;
+    }
+    
+    #white {
+        float: none;
+        background-color: #f2ebd8;
+        color: #120f12
+    }
+    
+    #white-list {
+        float: none;
+        list-style-type: circle;
+        font-weight: lighter;
+        color: #072818;
+        text-align: justify;
+        font-size: 90%;
+        padding: 15px;
+        background-color: #f2ebd8;
+        list-style-type: decimal
+    }
+    
+    /* Other Drinks */
+    
+    /* #other-drinks {
+        background-color: #70798C;
+    } */
+    
+    #other-drinks-background {
+        background: url(../images/pexels-neosiam-579216.jpg) center 20% / cover no-repeat;
+        background-size: 100%;
+        color: #35465e;
+    }
+    
+    #chocolate,
+    #cold,
+    #coffee {
+        color: #b69b7d;
+        max-width: 33%;
+        text-align: center;
+        font-family: 'Lora', serif;
+        font-weight: bold;
+        display: inline-table;
+        height: 200px;
+        font-size: 2.5vw;
+        margin: auto;
+    }
+    
+    
+    #chocolate {
+        background-color: #120f12;
+    }
+    
+    #chocolate-drinks {
+        float: none;
+        font-weight: lighter;
+        color: #f2ebd8;
+        text-align: justify;
+        padding-left: 3px;
+        background-color: #120f12;
+        /* color: #120f12; */
+        list-style-type: decimal
+    }
+    
+    #cold {
+        margin: 0 auto;
+    }
+    
+    #cold-drinks {
+        color: #f2ebd8;
+        list-style-type: none;
+        font-weight: lighter;
+        text-align: justify;
+        /* color: #001428; */
+        list-style-type: decimal
+    }
+    
+    #coffee {
+        float: none;
+        background-color: #f2ebd8;
+    }
+    
+    #coffee-drinks {
+        float: none;
+        list-style-type: none;
+        font-weight: lighter;
+        color: #120f12;
+        text-align: justify;
+        padding-right: 3px;
+        background-color: #f2ebd8;
+        padding-bottom: 60px;
+        list-style-type: decimal
+    }
+    
+    /* Extras */
+    
+    #cake,
+    #books,
+    #seasonal {
+        color: #b69b7d;
+        max-width: 33%;
+        text-align: center;
+        font-family: 'Lora', serif;
+        font-weight: bold;
+        display: inline-table;
+        height: 200px;
+        font-size: 2.5vw;
+        margin: auto;
+    }
+    
+    #extras {
+        background: url(../images/pexels-pixabay-159510.jpg) center 60% / cover no-repeat;
+        background-size: 100%;
+        color: #072818;
+    }
+    
+    #extras-background {
+        background-color: #cab698;
+    }
+    
+    #cake {
+        background-color: #120f12;
+    }
+    
+    #cake-menu {
+        float: none;
+        font-weight: lighter;
+        color: #f2ebd8;
+        text-align: justify;
+        padding-left: 3px;
+        background-color: #120f12;
+        list-style-type: decimal
+    }
+    
+    #books {
+        margin: 0 auto;
+        color: #40312f;
+    }
+    
+    #book-menu {
+        color: #120f12;
+        list-style-type: none;
+        font-weight: lighter;
+        text-align: justify;
+        font-size: 80%;
+        list-style-type: decimal
+    }
+    
+    #seasonal {
+        float: none;
+        background-color: #f2ebd8;
+        height: 200px;
+    }
+    
+    #seasonal-menu {
+        float: none;
+        list-style-type: none;
+        font-weight: lighter;
+        /* color: #ECDEB9; */
+        text-align: justify;
+        font-size: 90%;
+        padding-right: 3px;
+        background-color: #f2ebd8;
+        list-style-type: decimal
+    }
+    
+    #asterisk {
+        color: #f0eada;
+    }
+
 /* Footer */
 
 footer {

@@ -339,7 +339,7 @@ footer {
     /* padding: 1em; */
     /* text-align: center; */
     width: 100%;
-    /* position: fixed; */
+    position: fixed;
     bottom: 0;
     right: 0;
     z-index: 3;
@@ -559,7 +559,7 @@ footer {
     /* padding: 1em; */
     /* text-align: center; */
     width: 100%;
-    /* position: fixed; */
+    position: unset;
     bottom: 0;
     right: 0;
     z-index: 3;

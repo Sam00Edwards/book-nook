@@ -84,9 +84,9 @@ hr {
     color: #f0eada;
     position: relative;
     text-decoration: none;
-  }
-  
-  .nav::before {
+}
+
+.nav::before {
     content: '';
     position: absolute;
     width: 100%;
@@ -98,12 +98,12 @@ hr {
     transform-origin: right;
     transform: scaleX(0);
     transition: transform .3s ease-in-out;
-  }
-  
-  .nav:hover::before {
+}
+
+.nav:hover::before {
     transform-origin: left;
     transform: scaleX(1);
-  }
+}
 
 /* About Us*/
 
@@ -117,7 +117,7 @@ hr {
 
 /* Drinks Menu */
 
-    /* Teas */
+/* Teas */
 
 #teas {
     background: url(../images/pexels-eva-bronzini-6087517.jpg) center 20% / cover no-repeat;
@@ -182,7 +182,7 @@ hr {
     background-color: #f2ebd8;
 }
 
-    /* Other Drinks */
+/* Other Drinks */
 
 #other-drinks-background {
     background: url(../images/pexels-neosiam-579216.jpg) center 20% / cover no-repeat;
@@ -247,7 +247,7 @@ hr {
     background-color: #f2ebd8;
 }
 
-    /* Extras */
+/* Extras */
 
 #cake,
 #books,
@@ -401,89 +401,90 @@ legend {
     font-weight: bold;
 }
 
-.form   {
+.form {
     display: block;
     text-align: center;
     font-family: 'Lora', serif;
     color: #f2ebd8;
 }
 
-input, textarea   {
+input,
+textarea {
     width: 50%;
     float: right;
 }
 
-label   {
+label {
     float: left;
 }
 
-    /* Styled Submit Buttons */
+/* Styled Submit Buttons */
 .button-86 {
-  all: unset;
-  width: 100px;
-  height: 30px;
-  font-size: 16px;
-  background: transparent;
-  border: none;
-  position: relative;
-  color: #f0eada;
-  cursor: pointer;
-  z-index: 1;
-  padding: 10px 5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  white-space: nowrap;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  margin-top: 13px;
+    all: unset;
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    position: relative;
+    color: #f0eada;
+    cursor: pointer;
+    z-index: 1;
+    padding: 10px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-top: 13px;
 }
 
 .button-86::after,
 .button-86::before {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  z-index: -99999;
-  transition: all .4s;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -99999;
+    transition: all .4s;
 }
 
 .button-86::before {
-  transform: translate(0%, 0%);
-  width: 100%;
-  height: 100%;
-  background: #864c24;
-  border-radius: 10px;
+    transform: translate(0%, 0%);
+    width: 100%;
+    height: 100%;
+    background: #864c24;
+    border-radius: 10px;
 }
 
 .button-86::after {
-  transform: translate(10px, 10px);
-  width: 35px;
-  height: 35px;
-  background: #ffffff15;
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  border-radius: 50px;
+    transform: translate(10px, 10px);
+    width: 35px;
+    height: 35px;
+    background: #ffffff15;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 50px;
 }
 
 .button-86:hover::before {
-  transform: translate(5%, 20%);
-  width: 110%;
-  height: 110%;
+    transform: translate(5%, 20%);
+    width: 110%;
+    height: 110%;
 }
 
 .button-86:hover::after {
-  border-radius: 10px;
-  transform: translate(0, 0);
-  width: 100%;
-  height: 100%;
+    border-radius: 10px;
+    transform: translate(0, 0);
+    width: 100%;
+    height: 100%;
 }
 
 .button-86:active::after {
-  transition: 0s;
-  transform: translate(0, 5%);
+    transition: 0s;
+    transform: translate(0, 5%);
 }
 
 .book-submit {
@@ -493,41 +494,41 @@ label   {
     margin-top: 10px;
 }
 
-#guest-number    {
+#guest-number {
     float: right;
 }
 
-#map  iframe  {
+#map iframe {
     margin-top: 17px;
     width: 100%;
     margin-bottom: -4px;
 }
 
-#reserve-box  form  {
+#reserve-box form {
     margin: 22px 20px;
 }
 
 /* For screen sizes from  320px to 770px*/
 @media screen and (min-width: 320px) and (max-width: 770px) {
 
-        /* Navigation Bar */
+    /* Navigation Bar */
 
-     #navigation-menu {
+    #navigation-menu {
         clear: left;
         margin-left: -176px;
         left: 50%;
         position: absolute;
         font-size: x-large;
         letter-spacing: 0;
-    } 
-    
+    }
+
     #navigation-menu a {
         text-decoration: none;
         color: #b69b7d;
         margin: 5px;
     }
 
-/* Drinks Menu */
+    /* Drinks Menu */
 
     /* Teas */
 
@@ -545,11 +546,11 @@ label   {
         margin: auto;
         padding: 10px;
     }
-    
+
     #black {
         background-color: #120f12;
     }
-    
+
     #black-list {
         float: none;
         font-weight: lighter;
@@ -560,13 +561,13 @@ label   {
         background-color: #120f12;
         list-style-type: decimal
     }
-    
-    
-    
+
+
+
     #green {
         margin: 0 auto;
     }
-    
+
     #green-list {
         color: #f2ebd8;
         list-style-type: none;
@@ -576,13 +577,13 @@ label   {
         list-style-type: decimal;
         padding: 15px;
     }
-    
+
     #white {
         float: none;
         background-color: #f2ebd8;
         color: #120f12
     }
-    
+
     #white-list {
         float: none;
         list-style-type: circle;
@@ -594,15 +595,15 @@ label   {
         background-color: #f2ebd8;
         list-style-type: decimal
     }
-    
+
     /* Other Drinks */
-    
+
     #other-drinks-background {
         background: url(../images/pexels-neosiam-579216.jpg) center 20% / cover no-repeat;
         background-size: 100%;
         color: #35465e;
     }
-    
+
     #chocolate,
     #cold,
     #coffee {
@@ -617,12 +618,12 @@ label   {
         margin: auto;
         padding: 10px;
     }
-    
-    
+
+
     #chocolate {
         background-color: #120f12;
     }
-    
+
     #chocolate-drinks {
         float: none;
         font-weight: lighter;
@@ -633,11 +634,11 @@ label   {
         background-color: #120f12;
         list-style-type: decimal
     }
-    
+
     #cold {
         margin: 0 auto;
     }
-    
+
     #cold-drinks {
         color: #f2ebd8;
         list-style-type: none;
@@ -647,13 +648,13 @@ label   {
         list-style-type: decimal;
         padding: 15px;
     }
-    
+
     #coffee {
         float: none;
         background-color: #f2ebd8;
         color: #120f12
     }
-    
+
     #coffee-drinks {
         float: none;
         list-style-type: circle;
@@ -665,9 +666,9 @@ label   {
         background-color: #f2ebd8;
         list-style-type: decimal
     }
-    
+
     /* Extras */
-    
+
     #cake,
     #books,
     #seasonal {
@@ -682,18 +683,18 @@ label   {
         margin: auto;
         padding: 10px;
     }
-    
+
     #extras {
         background: url(../images/pexels-pixabay-159510.jpg) center 60% / cover no-repeat;
         background-size: 100%;
         color: #072818;
     }
-    
+
     #cake {
         background-color: #120f12;
         width: auto;
     }
-    
+
     #cake-menu {
         float: none;
         font-weight: lighter;
@@ -704,11 +705,11 @@ label   {
         background-color: #120f12;
         list-style-type: decimal
     }
-    
+
     #books {
         margin: 0 auto;
     }
-    
+
     #book-menu {
         color: #f2ebd8;
         list-style-type: none;
@@ -718,13 +719,13 @@ label   {
         list-style-type: decimal;
         padding: 15px;
     }
-    
+
     #seasonal {
         float: none;
         background-color: #f2ebd8;
         color: #120f12
     }
-    
+
     #seasonal-menu {
         float: none;
         list-style-type: circle;
@@ -736,100 +737,100 @@ label   {
         background-color: #f2ebd8;
         list-style-type: decimal
     }
-    
+
     #asterisk {
         color: #f0eada;
     }
 
-/* Footer */
+    /* Footer */
 
-footer {
-    background-color: #864c24;
-    font-family: 'Lora', serif;
-    color: #f0eada;
-    width: 100%;
-    position: unset;
-    bottom: 0;
-    right: 0;
-    z-index: 3;
-    margin: 0;
-    padding: 0;
-    border: none;
-    height: 420px;
-}
+    footer {
+        background-color: #864c24;
+        font-family: 'Lora', serif;
+        color: #f0eada;
+        width: 100%;
+        position: unset;
+        bottom: 0;
+        right: 0;
+        z-index: 3;
+        margin: 0;
+        padding: 0;
+        border: none;
+        height: 420px;
+    }
 
-#sm-icon {
-    float: left;
-    font-size: 150%;
-}
+    #sm-icon {
+        float: left;
+        font-size: 150%;
+    }
 
-#sm-icon p {
-    padding-top: 25px;
-    font-size: 150%;
-}
+    #sm-icon p {
+        padding-top: 25px;
+        font-size: 150%;
+    }
 
-#sm-icon li {
-    padding-top: 5px;
-    float: left;
-    list-style-type: none;
-    font-size: xxx-large;
-}
+    #sm-icon li {
+        padding-top: 5px;
+        float: left;
+        list-style-type: none;
+        font-size: xxx-large;
+    }
 
-#sm-icon i {
-    color: #f0eada;
+    #sm-icon i {
+        color: #f0eada;
 
-}
+    }
 
-#sm-icon a {
-    color: #f0eada;
-    padding-left: 13px;
-    text-align: left;
-}
+    #sm-icon a {
+        color: #f0eada;
+        padding-left: 13px;
+        text-align: left;
+    }
 
-.find   {
-    display: block;
-    padding-top: 35px;
-}
+    .find {
+        display: block;
+        padding-top: 35px;
+    }
 
-h3 {
-    color: #f0eada;
-}
+    h3 {
+        color: #f0eada;
+    }
 
-#phone {
-    float: right;
-    text-align: right;
-    padding-right: 13px;
-    font-size: 100%;
-    margin-top: 25px;
-    margin-left: 20px;
-}
+    #phone {
+        float: right;
+        text-align: right;
+        padding-right: 13px;
+        font-size: 100%;
+        margin-top: 25px;
+        margin-left: 20px;
+    }
 
-#address {
-    width: 179px;
-    margin: 0 auto;
-    height: 61px;
-    text-align: right;
-    font-size: 100%;
-    float: right;
-    padding-right: 13px;
-}
+    #address {
+        width: 179px;
+        margin: 0 auto;
+        height: 61px;
+        text-align: right;
+        font-size: 100%;
+        float: right;
+        padding-right: 13px;
+    }
 
-#address p {
-    color: #f2ebd8;
-}
+    #address p {
+        color: #f2ebd8;
+    }
 
-#phone p {
-    color: #f2ebd8;
-}
+    #phone p {
+        color: #f2ebd8;
+    }
 
-.text-center {
-    text-align: right;
-    display: table-footer-group;
-}
+    .text-center {
+        text-align: right;
+        display: table-footer-group;
+    }
 
-th,
-td {
-    border-bottom: 1px solid #f2ebd8;
-}
+    th,
+    td {
+        border-bottom: 1px solid #f2ebd8;
+    }
 
 }

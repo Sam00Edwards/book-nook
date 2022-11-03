@@ -138,7 +138,7 @@ hr {
     font-family: 'Lora', serif;
     font-weight: bold;
     display: inline-table;
-    height: 200px;
+    height: 304px;
     font-size: 2.5vw;
     margin: auto;
 }
@@ -161,6 +161,7 @@ hr {
 
 #green {
     margin: 0 auto;
+    margin-left: 60px;
 }
 
 #green-list {
@@ -179,12 +180,12 @@ hr {
 
 #white-list {
     float: right;
-    list-style-type: circle;
+    list-style-type: none;
     font-weight: lighter;
     color: #072818;
     text-align: justify;
     font-size: 90%;
-    padding-right: 3px;
+    padding-right: 55px;
     background-color: #f2ebd8;
 }
 
@@ -209,8 +210,8 @@ hr {
     font-family: 'Lora', serif;
     font-weight: bold;
     display: inline-table;
-    height: 200px;
-    font-size: 2.5vw;
+    height: 304px;
+    font-size: 2vw;
     margin: auto;
 }
 
@@ -231,6 +232,7 @@ hr {
 
 #cold {
     margin: 0 auto;
+    margin-left: 60px;
 }
 
 #cold-drinks {
@@ -244,17 +246,19 @@ hr {
 #coffee {
     float: right;
     background-color: #f2ebd8;
+    color: #120f12;
+    padding-left: 111px;
 }
 
 #coffee-drinks {
-    float: right;
+    /* float: right; */
     list-style-type: none;
     font-weight: lighter;
-    color: #120f12;
+    color: #072818;
     text-align: justify;
-    padding-right: 3px;
+    font-size: 90%;
+    padding-right: 105px;
     background-color: #f2ebd8;
-    padding-bottom: 60px;
 }
 
 /* Extras */
@@ -279,9 +283,9 @@ hr {
     color: #072818;
 }
 
-#extras-background {
+/* #extras-background {
     background-color: #cab698;
-}
+} */
 
 #cake {
     background-color: #120f12;
@@ -298,7 +302,7 @@ hr {
 
 #books {
     margin: 0 auto;
-    color: #40312f;
+    margin-left: 60px;
 }
 
 #book-menu {
@@ -561,7 +565,7 @@ label   {
         font-weight: bold;
         display: block;
         height: 100%;
-        font-size: 2.5vw;
+        font-size: 5vw;
         margin: auto;
         padding: 10px;
     }
@@ -637,7 +641,7 @@ label   {
         font-weight: bold;
         display: block;
         height: 100%;
-        font-size: 2.5vw;
+        font-size: 5vw;
         margin: auto;
         padding: 10px;
     }
@@ -675,6 +679,7 @@ label   {
     #coffee {
         float: none;
         background-color: #f2ebd8;
+        color: #120f12
     }
     
     #coffee-drinks {
@@ -701,7 +706,7 @@ label   {
         font-weight: bold;
         display: block;
         height: 100%;
-        font-size: 2.5vw;
+        font-size: 5vw;
         margin: auto;
         padding: 10px;
     }
@@ -712,9 +717,9 @@ label   {
         color: #072818;
     }
     
-    #extras-background {
+    /* #extras-background {
         background-color: #cab698;
-    }
+    } */
     
     #cake {
         background-color: #120f12;
@@ -733,7 +738,7 @@ label   {
     
     #books {
         margin: 0 auto;
-        color: #40312f;
+        /* color: #40312f; */
     }
     
     #book-menu {
@@ -749,7 +754,7 @@ label   {
     #seasonal {
         float: none;
         background-color: #f2ebd8;
-        height: 200px;
+        color: #120f12
     }
     
     #seasonal-menu {

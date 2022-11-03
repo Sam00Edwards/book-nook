@@ -116,7 +116,8 @@ hr {
 }
 
 /* Drinks Menu */
-/* Teas */
+
+    /* Teas */
 
 #teas {
     background: url(../images/pexels-eva-bronzini-6087517.jpg) center 20% / cover no-repeat;
@@ -151,8 +152,6 @@ hr {
     background-color: #120f12;
 }
 
-
-
 #green {
     margin: 0 auto;
     margin-left: 60px;
@@ -183,7 +182,7 @@ hr {
     background-color: #f2ebd8;
 }
 
-/* Other Drinks */
+    /* Other Drinks */
 
 #other-drinks-background {
     background: url(../images/pexels-neosiam-579216.jpg) center 20% / cover no-repeat;
@@ -248,7 +247,7 @@ hr {
     background-color: #f2ebd8;
 }
 
-/* Extras */
+    /* Extras */
 
 #cake,
 #books,
@@ -418,7 +417,7 @@ label   {
     float: left;
 }
 
-/* CSS */
+    /* Styled Submit Buttons */
 .button-86 {
   all: unset;
   width: 100px;
@@ -511,7 +510,8 @@ label   {
 /* For screen sizes from  320px to 770px*/
 @media screen and (min-width: 320px) and (max-width: 770px) {
 
-    /* Navigation Bar */
+        /* Navigation Bar */
+
      #navigation-menu {
         clear: left;
         margin-left: -176px;
@@ -527,7 +527,10 @@ label   {
         margin: 5px;
     }
 
+/* Drinks Menu */
 
+    /* Teas */
+    
     #black,
     #green,
     #white {

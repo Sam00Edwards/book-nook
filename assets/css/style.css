@@ -9,21 +9,21 @@
 /* Header Images */
 
 #main-header-image {
-    background: url(../images/pexels-ioana-motoc-4346325.jpg) center 82% / cover no-repeat;
+    background: url(../images/pexels-ioana-motoc-4346325.webp) center 82% / cover no-repeat;
     height: 290px;
     width: 100%;
     margin-top: 8px;
 }
 
 #menu-header-image {
-    background: url(../images/pexels-koko-rahmadie-227908.jpg) center 42% / cover no-repeat;
+    background: url(../images/pexels-koko-rahmadie-227908.webp) center 42% / cover no-repeat;
     height: 165px;
     width: 100%;
     margin-top: 8px;
 }
 
 #reserve-header-image {
-    background: url(../images/pexels-cottonbro-8848783.jpg) center 63% / cover no-repeat;
+    background: url(../images/pexels-cottonbro-8848783.webp) center 63% / cover no-repeat;
     height: 150px;
     width: 100%;
     margin-top: 8px;
@@ -120,7 +120,7 @@ hr {
 /* Teas */
 
 #teas {
-    background: url(../images/pexels-eva-bronzini-6087517.jpg) center 20% / cover no-repeat;
+    background: url(../images/pexels-eva-bronzini-6087517.webp) center 20% / cover no-repeat;
     background-size: 100%;
 }
 
@@ -185,7 +185,7 @@ hr {
 /* Other Drinks */
 
 #other-drinks-background {
-    background: url(../images/pexels-neosiam-579216.jpg) center 20% / cover no-repeat;
+    background: url(../images/pexels-neosiam-579216.webp) center 20% / cover no-repeat;
     background-size: 100%;
     color: #35465e;
 }
@@ -264,7 +264,7 @@ hr {
 }
 
 #extras {
-    background: url(../images/pexels-pixabay-159510.jpg) center 60% / cover no-repeat;
+    background: url(../images/pexels-pixabay-159510.webp) center 60% / cover no-repeat;
     background-size: 100%;
     color: #072818;
 }
@@ -401,7 +401,7 @@ legend {
     font-weight: bold;
 }
 
-.form {
+form {
     display: block;
     text-align: center;
     font-family: 'Lora', serif;
@@ -599,7 +599,7 @@ label {
     /* Other Drinks */
 
     #other-drinks-background {
-        background: url(../images/pexels-neosiam-579216.jpg) center 20% / cover no-repeat;
+        background: url(../images/pexels-neosiam-579216.webp) center 20% / cover no-repeat;
         background-size: 100%;
         color: #35465e;
     }
@@ -685,7 +685,7 @@ label {
     }
 
     #extras {
-        background: url(../images/pexels-pixabay-159510.jpg) center 60% / cover no-repeat;
+        background: url(../images/pexels-pixabay-159510.webp) center 60% / cover no-repeat;
         background-size: 100%;
         color: #072818;
     }

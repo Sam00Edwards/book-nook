@@ -39,24 +39,24 @@
         </ul>
     </nav>
     <hr id="navigation-line">
-    <section id="reserve-header-image"></section>
+    <div id="reserve-header-image"></div>
     <hr>
 
     <!-- Reservations Form -->
 
     <div id="reserve-box">
         <form action="https://formdump.codeinstitute.net" method="POST">
-            <fieldset class="form">
+            <fieldset>
                 <legend>Reserve A Table</legend>
                 <br>
-                <form action="/action_page.php">
-                    <label for="date-and-time">Date and Time:</label>
-                    <input type="datetime-local" id="date-and-time" name="date-and-time" value="" min="2022-10-18T09:00"
+                <!-- <form action="/action_page.php"> -->
+                    <label for="date-and-time-table">Date and Time:</label>
+                    <input type="datetime-local" id="date-and-time-table" name="date-and-time-table" value="" min="2022-10-18T09:00"
                         max="2022-11-30T20:00">
                     <br>
                     <label for="guest-number">Number of Guests:</label>
                     <select id="guest-number" name="guest-number" required="">
-                        <option value="1">1</option>
+                        <option value="">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
                         <option value="4">4</option>
@@ -71,24 +71,25 @@
                         <option value="12+">12+</option>
                     </select>
                     <br>
-                    <label for="full-name">Name:</label>
-                    <input type="text" id="full-name" name="full-name" value=""><br>
-                    <label for="phone-no">Phone No:</label>
-                    <input type="tel" id="phone-no" name="phone-no"><br>
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email"><br>
+                    <label for="full-name-table">Name:</label>
+                    <input type="text" id="full-name-table" name="full-name-table" value=""><br>
+                    <label for="phone-no-table">Phone No:</label>
+                    <input type="tel" id="phone-no-table" name="phone-no-table"><br>
+                    <label for="email-table">Email:</label>
+                    <input type="email" id="email-table" name="email-table"><br>
                     <input type="submit" class="submit" value="Submit">
-                    <button class="button-86" role="button">Submit</button>
-                </form>
-            </fieldset>
+                    <button class="button-86">Submit</button>
+            </fieldset>    
+        </form>    
+            
 
             <!-- Vintage Books Appointment Form -->
 
             <form action="https://formdump.codeinstitute.net" method="POST">
-                <fieldset class="form">
+                <fieldset id="form">
                     <legend>Vintage Books Appointment</legend>
                     <br>
-                    <form action="/action_page.php">
+                    <!-- <form action="/action_page.php"> -->
                         <label for="date-and-time">Date and Time:</label>
                         <input type="datetime-local" id="date-and-time" name="date-and-time" value=""
                             min="2022-10-18T09:00" max="2022-11-30T20:00">
@@ -105,16 +106,17 @@
                         <label for="book-list">Books to View:</label>
                         <textarea id="book-list" name="book-list"></textarea>
                         <br>
-                        <button class="button-86" role="button">Submit</button>
-                    </form>
+                        <button class="button-86">Submit</button>
+                    <!-- </form> -->
+                </fieldset>
             </form>
-            </fieldset>
+            
     </div>
 
     <!-- Google Maps Map -->
 
     <div id="map">
-        <iframe
+        <iframe aria-label="Google Map location"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19361.239648059396!2d-8.62166605!3d52.65717865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485b5c68bf7f6337%3A0xe90475d49e25fa06!2sThe%20Milk%20Market!5e0!3m2!1sen!2sie!4v1666204522647!5m2!1sen!2sie"
             width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>

@@ -133,7 +133,7 @@ hr {
     font-family: 'Lora', serif;
     font-weight: bold;
     display: inline-table;
-    height: 304px;
+    height: 408px;
     font-size: 2.5vw;
     margin: auto;
 }
@@ -199,7 +199,7 @@ hr {
     font-family: 'Lora', serif;
     font-weight: bold;
     display: inline-table;
-    height: 304px;
+    height: 345px;
     font-size: 2vw;
     margin: auto;
 }
@@ -234,7 +234,7 @@ hr {
     float: right;
     background-color: #f2ebd8;
     color: #120f12;
-    padding-left: 111px;
+    padding-left: 175px;
 }
 
 #coffee-drinks {
@@ -258,7 +258,7 @@ hr {
     font-family: 'Lora', serif;
     font-weight: bold;
     display: inline-table;
-    height: 340px;
+    height: 432px;
     font-size: 2vw;
     margin: auto;
 }
@@ -271,7 +271,7 @@ hr {
 
 #cake {
     background-color: #120f12;
-    width: 300px;
+    width: 393px;
 }
 
 #cake-menu {

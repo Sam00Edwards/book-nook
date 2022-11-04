@@ -5,7 +5,7 @@
 
 The Book Nook is a fictional book-shop and tea-room located in the heart of Limerick City, at the famous Milk Market.
 
-Using a Dark Academia inspired colour pallet and concepts the website aims to show users and customers the numerous different teas, coffees, seasonal treats and cold drinks on offer. Many of the options are caffeine free, gluten free or vegan. 
+Using a Dark Academia inspired colour palette and concepts the website aims to show users and customers the numerous different teas, coffees, seasonal treats and cold drinks on offer. Many of the options are caffeine free, gluten free or vegan. 
 
 The Book Nook offers the opportunity to sit by a roaring fire with a cup or pot of tea while reading. Vintage books are also available to purchase, however an appointment must be made ahead of time as they are quite fragile.
 
@@ -15,7 +15,7 @@ Visit the deployed website [here](https://sam00edwards.github.io/book-nook/index
 
 1. [User Experience (UX)](#user-experience-ux)
     1. [Project Goals](#project-goals)
-    2. [Color Scheme](#color-scheme)
+    2. [Colour Scheme](#colour-scheme)
     3. [Typography](#typography)
 2. [Features](#features)
     1. [Main](#main)
@@ -44,15 +44,15 @@ Visit the deployed website [here](https://sam00edwards.github.io/book-nook/index
 
 ### Project Goals
 
-* Provide a simply and aesthetic website that closely follows the set theme.
+* Provide a simple and aesthetic website that closely follows the set theme.
 * Allow visitors to the website to easily browse through the menu.
 * Allow visitors to the website to reserve a seat or book an appointment to view a vintage book.
 * Allow visitors to the website to find multiple avenues for contact or to stay up to date on The Book Nooks social media.
 
-### Color Scheme
-![Color scheme image](assets/readme-files/colour-scheme.JPG)
+### Colour Scheme
+![Colour scheme image](assets/readme-files/colour-scheme.JPG)
 
-The main colours used in this website creams and browns with the main background colour being a deep dark green in keeping in line with the dark academia asthetic. 
+The colours used in this website are greens, creams and browns with the main background colour being a deep dark green in keeping in line with the dark academia aesthetic. 
 
 Many online images and colour scheme references were examined both through google images and pinterest.
 
@@ -70,11 +70,11 @@ The site primarily uses 'Lora' as the font of choice with 'Serif' as the back-up
 * **Header**
 ![Header image](assets/readme-files/header-image.JPG)
     
-    - The header contains the title of the tea room and contains a navigation bar that moves from the right to the center when viewed on mobile.
+    - The header contains the title of the tea room and contains a navigation bar that moves from the right to the centre when viewed on mobile.
 
     - When the title is clicked it will take you back to the landing page.
 
-    - The nacigation bar is the same across all pages. The About Us link will keep you on the landing page but scroll you down to where the section starts. Both Drinks Menu and Reserve will take you to their respective pages.
+    - The navigation bar is the same across all pages. The About Us link will keep you on the landing page but scroll you down to where the section starts. Both Drinks Menu and Reserve will take you to their respective pages.
 
 * **Footer**
 ![Footer image](assets/readme-files/footer-image.JPG)
@@ -86,12 +86,13 @@ The site primarily uses 'Lora' as the font of choice with 'Serif' as the back-up
 * **Main Image**
 ![Main image](assets/readme-files/main-image.JPG)
 
-    - The main image is designed to represent the asthetic and general mood both the website and tea room are trying to emulate.
+    - The main image is designed to represent the aesthetic and general mood both the website and tea room are trying to emulate.
 
 * **About Us Section**
+
 ![About us image](assets/readme-files/about-us.JPG)
 
-    - Contains text with the information for this foctional tea room and book shop.
+    - Contains text with the information for this fictional tea room and bookshop.
 
 ### Drinks Menu Page
 
@@ -111,10 +112,11 @@ The site primarily uses 'Lora' as the font of choice with 'Serif' as the back-up
     - It also allows for booking an appointment to view and possibly purchase some vintage books.
 
 
+
 * **Find Us Section**
 ![Find us section image](assets/readme-files/map.JPG)
 
-    - A google maps map has been embedded into the page here to allowing visitors to easily locate the tea-room.
+    - A google maps map has been embedded into the page here to allow visitors to easily locate the tea-room.
 
 [Back to top ⇧](#the-book-nook)
 
@@ -145,7 +147,7 @@ The site primarily uses 'Lora' as the font of choice with 'Serif' as the back-up
     - Am I Responsive was used in order to see responsive design throughout the process and to generate mockup imagery to be used.
 
 * [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
-    - Chrome DevTools was used during development process for code review and to test responsiveness.
+    - Chrome DevTools was used during the development process for code review and to test responsiveness.
 
 * [W3C Markup Validator](https://validator.w3.org/)
     - W3C Markup Validator was used to validate the HTML code.
@@ -203,7 +205,7 @@ The site primarily uses 'Lora' as the font of choice with 'Serif' as the back-up
 
     - The website has been tested on the following browsers:
 
-        - **Goolgle Chrome**
+        - **Google Chrome**
         
         No appearance, responsiveness nor functionality issues.
 
@@ -238,7 +240,7 @@ The site primarily uses 'Lora' as the font of choice with 'Serif' as the back-up
 
         - **Navigation Bar**
 
-            - Hovering on the different navigation bar's links will trigger hover effect, underlining the item.
+            - Hovering on the different navigation bar's links will trigger the hover effect, underlining the item.
 
             - Clicking on the navigation bar's links will bring the customer to the specified page or to the specific section of the page referenced.
         
@@ -248,7 +250,7 @@ The site primarily uses 'Lora' as the font of choice with 'Serif' as the back-up
 
     - Reservations Page
 
-        - Hovering on the submit button under each form will trigger hover effect, bringing a blurry vignette over the button.
+        - Hovering on the submit button under each form will trigger a hover effect, bringing a blurry vignette over the button.
 
 [Back to top ⇧](#the-book-nook)
 
@@ -306,10 +308,10 @@ The site primarily uses 'Lora' as the font of choice with 'Serif' as the back-up
 
 ### Code
 
-* [Stack Overflow](https://stackoverflow.com/) and [W3Schools](https://www.w3schools.com/) were consulted on a regular basis for inspiration and sometimes to be able to better understand the code being implement.
+* [Stack Overflow](https://stackoverflow.com/) and [W3Schools](https://www.w3schools.com/) were consulted on a regular basis for inspiration and sometimes to be able to better understand the code being implemented.
 
 ### ReadME
 
-* [ReadME file](https://github.com/josswe26/pura-vida-spa/blob/main/README.md) The outline of this ReadME was based on this example provided to me by my mentor, Marcel. All of the images have been changed and any yext that remains identical is text where only a simple explanation is warranted and to change it would be unneccessary.
+* [ReadME file](https://github.com/josswe26/pura-vida-spa/blob/main/README.md) The outline of this ReadME was based on this example provided to me by my mentor, Marcel. All of the images have been changed and any text that remains identical is text where only a simple explanation is warranted and to change it would be unnecessary.
 
 [Back to top ⇧](#the-book-nook)

@@ -133,7 +133,7 @@ hr {
     font-family: 'Lora', serif;
     font-weight: bold;
     display: inline-table;
-    height: 408px;
+    height: 500px;
     font-size: 2.5vw;
     margin: auto;
 }
@@ -199,7 +199,7 @@ hr {
     font-family: 'Lora', serif;
     font-weight: bold;
     display: inline-table;
-    height: 345px;
+    height: 500px;
     font-size: 2vw;
     margin: auto;
 }
@@ -234,7 +234,7 @@ hr {
     float: right;
     background-color: #f2ebd8;
     color: #120f12;
-    padding-left: 175px;
+    padding-left: 57px;
 }
 
 #coffee-drinks {
@@ -243,7 +243,7 @@ hr {
     color: #072818;
     text-align: justify;
     font-size: 90%;
-    padding-right: 105px;
+    padding-right: 220px;
     background-color: #f2ebd8;
 }
 
@@ -258,7 +258,7 @@ hr {
     font-family: 'Lora', serif;
     font-weight: bold;
     display: inline-table;
-    height: 432px;
+    height: 600px;
     font-size: 2vw;
     margin: auto;
 }

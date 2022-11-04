@@ -1,119 +1,315 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Hamburger Menu source; https://alvarotrigo.com/blog/hamburger-menu-css/
+# The Book Nook
 
-Footer source coders coffeehouse; https://learn.codeinstitute.net/sandbox/api/challenges/60338cca9c4983ac5d855130/files/index.html#contact
+![The Book Nook mockup images](assets/readme-files/mockup-image.JPG)
 
-Footer Icons HTML source; https://sam00edwards.github.io/love-running/index.html
+The Book Nook is a fictional book-shop and tea-room located in the heart of Limerick City, at the famous Milk Market.
 
-black tea leaves https://www.pexels.com/photo/close-up-shot-of-dried-tea-leaves-6087517/
-ice cubes https://www.pexels.com/photo/clear-water-579216/
-rainfall sound https://pixabay.com/sound-effects/light-rain-ambient-114354/
-Hover code https://css-tricks.com/css-link-hover-effects/
+Using a Dark Academia inspired colour pallet and concepts the website aims to show users and customers the numerous different teas, coffees, seasonal treats and cold drinks on offer. Many of the options are caffeine free, gluten free or vegan. 
 
-Welcome Sam00Edwards,
+The Book Nook offers the opportunity to sit by a roaring fire with a cup or pot of tea while reading. Vintage books are also available to purchase, however an appointment must be made ahead of time as they are quite fragile.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Visit the deployed website [here](https://sam00edwards.github.io/book-nook/index.html).
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Table of Contents
 
-## Gitpod Reminders
+1. [User Experience (UX)](#user-experience-ux)
+    1. [Project Goals](#project-goals)
+    2. [Color Scheme](#color-scheme)
+    3. [Typography](#typography)
+2. [Features](#features)
+    1. [Main](#main)
+    2. [Landing Page](#landing-page)
+    3. [Drinks Menu Page](#drinks-menu-page)
+    4. [Reservations Page](#reservations-page)
+ 3. [Technologies Used](#technologies-used)
+    1. [Languages Used](#languages-used)
+    2. [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
+4. [Testing](#testing)
+    1. [Code Validation](#code-validation)
+    2. [Accessibility](#accessibility)
+    3. [Tools Testing](#tools-testing)
+    4. [Manual Testing](#manual-testing)
+5. [Deployment](#deployment)
+    1. [GitHub Pages](#github-pages)
+6. [Credits](#credits)
+    1. [Content](#content)
+    2. [Media](#media)
+    3. [Code](#code)
+    4. [ReadME](#readme)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+***
 
-`python3 -m http.server`
+## User Experience (UX)
 
-A blue button should appear to click: _Make Public_,
+### Project Goals
 
-Another blue button should appear to click: _Open Browser_.
+* Provide a simply and aesthetic website that closely follows the set theme.
+* Allow visitors to the website to easily browse through the menu.
+* Allow visitors to the website to reserve a seat or book an appointment to view a vintage book.
+* Allow visitors to the website to find multiple avenues for contact or to stay up to date on The Book Nooks social media.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Color Scheme
+![Color scheme image](assets/readme-files/colour-scheme.JPG)
 
-A blue button should appear to click: _Make Public_,
+The main colours used in this website creams and browns with the main background colour being a deep dark green in keeping in line with the dark academia asthetic. 
 
-Another blue button should appear to click: _Open Browser_.
+Many online images and colour scheme references were examined both through google images and pinterest.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Typography
 
-To log into the Heroku toolbelt CLI:
+The site primarily uses 'Lora' as the font of choice with 'Serif' as the back-up option if that doesn't work properly. This font was chosen again because it feels a little vintage and old world and would match the theme of the website. 
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+[Back to top ⇧](#the-book-nook)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
-------
+## Features
 
-## Release History
+### Main
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+* **Header**
+![Header image](assets/readme-files/header-image.JPG)
+    
+    - The header contains the title of the tea room and contains a navigation bar that moves from the right to the center when viewed on mobile.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+    - When the title is clicked it will take you back to the landing page.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+    - The nacigation bar is the same across all pages. The About Us link will keep you on the landing page but scroll you down to where the section starts. Both Drinks Menu and Reserve will take you to their respective pages.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+* **Footer**
+![Footer image](assets/readme-files/footer-image.JPG)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+    - The footer includes the tea rooms social media links, an email link, a link to google maps, contact info and opening times.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+### Landing Page
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+* **Main Image**
+![Main image](assets/readme-files/main-image.JPG)
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+    - The main image is designed to represent the asthetic and general mood both the website and tea room are trying to emulate.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+* **About Us Section**
+![About us image](assets/readme-files/about-us.JPG)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+    - Contains text with the information for this foctional tea room and book shop.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Drinks Menu Page
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+* **Drinks Menu**
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+![Drinks Menu image](assets/readme-files/drinks-menu.JPG)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+    - The drinks menu page contains responsive elements showcasing all the drinks on offer.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Reservations Page
 
-------
+* **Reservations Form**
 
-## FAQ about the uptime script
+![Reservations form image](assets/readme-files/reservations-image.JPG)
 
-**Why have you added this script?**
+    - The form is available for reserving a table at the tea-room as is somewhat common nowadays due to COVID.
+    - It also allows for booking an appointment to view and possibly purchase some vintage books.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
 
-**How will this affect me?**
+* **Find Us Section**
+![Find us section image](assets/readme-files/map.JPG)
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+    - A google maps map has been embedded into the page here to allowing visitors to easily locate the tea-room.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+[Back to top ⇧](#the-book-nook)
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+## Technologies Used
 
-**So….?**
+### Languages Used
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/CSS)
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+### Frameworks, Libraries and Programs Used
 
-**Can I opt out?**
+* [Google Fonts](https://fonts.google.com/)
+    - Access was granted to the various fonts through use of Google Fonts.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+* [Font Awesome](https://fontawesome.com/)
+     - Font Awesome was used to add the social media icons.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+* [TinyPNG](https://tinypng.com/)
+    - TinyPNG was used to reduce the file size of the images for the website.
 
-**Anything more?**
+* [GitPod](https://gitpod.io/)
+     - GitPod was used for writing code, committing, and then pushing to GitHub.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+* [GitHub](https://github.com/)
+     - GitHub was used to store the project after pushing.
 
----
+* [Am I Responsive?](http://ami.responsivedesign.is/#)
+    - Am I Responsive was used in order to see responsive design throughout the process and to generate mockup imagery to be used.
 
-Happy coding!
+* [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+    - Chrome DevTools was used during development process for code review and to test responsiveness.
+
+* [W3C Markup Validator](https://validator.w3.org/)
+    - W3C Markup Validator was used to validate the HTML code.
+
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+    - W3C CSS Validator was used to validate the CSS code.
+
+[Back to top ⇧](#the-book-nook)
+
+
+## Testing
+
+### Code Validation
+
+* The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) were used to make sure there were no errors or bugs in the system.
+
+    - W3C Markup Validator kept throwing up an error with the fieldset and form elements on the reservations.html page. 
+    - These elements were switched out and rearranged until no more errors presented
+
+    -  W3C CSS Validator found no errors or warnings on my CSS.
+
+### Accessibility
+
+* Used Lighthouse in Chrome DevTools to confirm that it met the necessary accessibility scores.
+
+* Lighthouse reports
+
+    - **Home Page**
+
+    ![Lighthouse report for home page image](assets/readme-files/lighthouse-index.JPG)
+
+    - **Drinks Menu**
+
+    ![Lighthouse report for Drinks Menu page image](assets/readme-files/lighthouse-menu.JPG)
+
+    - **Reservations Page**
+
+    ![Lighthouse report for reservations page image](assets/readme-files/lighthouse-reservations.JPG)
+
+### Tools Testing
+
+* [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+
+    - Chrome DevTools was heavily used to test and modify elements in real time before they were entered or copy pasted into gitpod.
+
+* Responsiveness
+    
+    - [Am I Responsive?](http://ami.responsivedesign.is/#) was used to check responsiveness of the site pages across different devices.
+    
+    - Chrome DevTools was used to test responsiveness in different screen sizes during the development process.
+
+### Manual Testing
+
+* Browser Compatibility
+
+    - The website has been tested on the following browsers:
+
+        - **Goolgle Chrome**
+        
+        No appearance, responsiveness nor functionality issues.
+
+        - **Opera**
+        
+        No appearance, responsiveness nor functionality issues.
+
+        - **Microsoft Edge**
+        
+        No appearance, responsiveness nor functionality issues.
+
+* Device compatibility
+
+    - The website has been tested on multiple devices, including:
+
+        - **Windows 10 Desktop**
+
+        No appearance, responsiveness nor functionality issues.
+
+        - **OnePlus 8**
+
+        No appearance, responsiveness nor functionality issues.
+
+
+* Common Elements Testing
+
+    - All Pages
+        
+        - **Header**
+
+            - Clicking on the title text will bring the customer back to the landing page.
+
+        - **Navigation Bar**
+
+            - Hovering on the different navigation bar's links will trigger hover effect, underlining the item.
+
+            - Clicking on the navigation bar's links will bring the customer to the specified page or to the specific section of the page referenced.
+        
+        - **Footer**
+        
+            - Clicking on the social media links will open the specific website in a new tab.
+
+    - Reservations Page
+
+        - Hovering on the submit button under each form will trigger hover effect, bringing a blurry vignette over the button.
+
+[Back to top ⇧](#the-book-nook)
+
+## Deployment
+
+* This website was developed using [GitPod](https://www.gitpod.io/), which was then committed and pushed to GitHub using the GitPod terminal.
+
+### GitHub Pages
+
+* Here are the steps to deploy this website to GitHub Pages from its GitHub repository:
+
+    1. Log in to GitHub and locate the [GitHub Repository](https://github.com/).
+
+    2. On the left hand side is a menu, click on 'Pages' underneath 'Code and automation'.
+
+    3. Choose 'Deploy from a branch' under 'source'.
+
+    4. Choose 'main' under 'source'.
+
+    5. Save.
+
+    6. Refresh and your website link should be available
+
+[Back to top ⇧](#the-book-nook)
+
+
+## Credits 
+
+### Content
+
+* [Footer](https://learn.codeinstitute.net/sandbox/api/challenges/60338cca9c4983ac5d855130/files/index.html#contact)
+
+    - Footer Code sourced from Code Institute Coders Coffeehouse.
+
+* [Submit Button](https://getcssscan.com/css-buttons-examples)
+
+    - Submit Button Code sourced from CSS Scan using code from Button 86.
+
+### Media
+
+* [Pexels](https://www.pexels.com/)
+
+    - [Main Image](https://www.pexels.com/photo/cup-of-coffee-on-an-opened-book-4346325/)
+    Cup of coffee on an opened book by Ioana Motoc.
+    - [Drinks Menu Image](https://www.pexels.com/photo/silver-round-accessory-with-storage-227908/)
+    Silver round accessory with storage by Koko Rahmadie.
+    - [Drinks Menu Tea Image](https://www.pexels.com/photo/close-up-shot-of-dried-tea-leaves-6087517/)
+    Close-Up Shot of Dried Tea Leaves by Eva Bronzini.
+    - [Drinks Menu Other Drinks Image](https://www.pexels.com/photo/clear-water-579216/)
+    Clear Water by NEOSiAM 2021.
+    - [Drinks Menu Extras Image](https://www.pexels.com/photo/brown-paper-book-159510/)
+    Brown Paper Book by Pixabay.
+    - [Reservations Image](https://www.pexels.com/photo/a-person-holding-a-chess-piece-8848783/)
+    A Person Holding a Chess Piece by cottonbro studio.
+
+### Code
+
+* [Stack Overflow](https://stackoverflow.com/) and [W3Schools](https://www.w3schools.com/) were consulted on a regular basis for inspiration and sometimes to be able to better understand the code being implement.
+
+### ReadME
+
+* [ReadME file](https://github.com/josswe26/pura-vida-spa/blob/main/README.md) The outline of this ReadME was based on this example provided to me by my mentor, Marcel. All of the images have been changed and any yext that remains identical is text where only a simple explanation is warranted and to change it would be unneccessary.
+
+[Back to top ⇧](#the-book-nook)
